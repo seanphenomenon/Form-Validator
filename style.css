@@ -1,6 +1,7 @@
+/* Another way to import fonts directly into css */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
-/* you can declare variables ex. var() for multi-use purposes to be used anywhere with :root at the top */
+/* you can declare variables  using ex. var() for multi-use purposes to be used anywhere with :root at the top */
 :root {
   --success-color: #2eec71;
   --error-color: #e74c3c;
@@ -22,7 +23,7 @@ body {
   margin: 0;
 }
 
-/* container wraps around everything */
+/* container wraps around the form */
 .container {
   background-color: #fff;
   /* border-radius is for rounded corners */
